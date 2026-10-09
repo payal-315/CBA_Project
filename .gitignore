@@ -1,0 +1,11 @@
+.env
+.env.*
+.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/processed/*
+data/rejected/*
+!data/processed/.gitkeep
+!data/rejected/.gitkeep

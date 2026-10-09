@@ -1,0 +1,70 @@
+[
+  {
+    "sensor_id": "SEN001",
+    "timestamp": "2026-10-09T08:00:00Z",
+    "temperature": 28.0,
+    "pm25": 31.4,
+    "pm10": 48.1,
+    "metadata": {
+      "model": "ENV-A1",
+      "location": {"zone": "North", "latitude": 12.98, "longitude": 77.59}
+    }
+  },
+  {
+    "sensor_id": "SEN001",
+    "timestamp": "2026-10-09T09:00:00+00:00",
+    "temperature": null,
+    "pm25": 35.2,
+    "pm10": 52.0,
+    "metadata": {
+      "model": "ENV-A1",
+      "location": {"zone": "North", "latitude": 12.98, "longitude": 77.59}
+    }
+  },
+  {
+    "sensor_id": "SEN001",
+    "timestamp": "2026-10-09T09:00:00Z",
+    "temperature": null,
+    "pm25": 35.2,
+    "pm10": 52.0,
+    "metadata": {
+      "model": "ENV-A1",
+      "location": {"zone": "North", "latitude": 12.98, "longitude": 77.59}
+    }
+  },
+  {
+    "sensor_id": "SEN001",
+    "timestamp": "2026-10-09T10:00:00Z",
+    "temperature": 30.0,
+    "air_quality": {"pm25": 39.7, "ozone": 0.031},
+    "metadata": {
+      "model": "ENV-A1",
+      "location": {"zone": "North", "latitude": 12.98, "longitude": 77.59}
+    }
+  },
+  {
+    "sensor_id": "SEN002",
+    "timestamp": "2026-10-09T09:00:00Z",
+    "temperature": null,
+    "air_quality": {"pm25": 21.1, "aqi": 54},
+    "metadata": {
+      "model": "AQ-B2",
+      "location": {"zone": "South", "latitude": 12.91, "longitude": 77.61},
+      "firmware": {"version": "2.1", "features": ["pm25", "aqi"]}
+    }
+  },
+  {
+    "sensor_id": "SEN003",
+    "timestamp": "not-a-timestamp",
+    "temperature": 25.0,
+    "pm25": 18.0,
+    "metadata": {"model": "ENV-A1"}
+  },
+  {
+    "sensor_id": "SEN004",
+    "timestamp": "2026-10-09T09:00:00Z",
+    "temperature": "sensor-error",
+    "pm25": 19.0,
+    "metadata": {"model": "ENV-C3"}
+  }
+]

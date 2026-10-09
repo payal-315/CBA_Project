@@ -1,0 +1,11 @@
+{
+  "input_records": 919,
+  "valid_records": 919,
+  "duplicate_records_removed": 0,
+  "temperature_values_imputed": 0,
+  "unresolved_temperature_values": 0,
+  "rejected_records": 0,
+  "weather_temperatures_added": 919,
+  "weather_temperatures_unavailable": 0,
+  "successfully_stored_observations": 919
+}
